@@ -1,0 +1,45 @@
+machine:
+  xcode:
+    version: "8.3"
+
+test:
+  override:
+    - set -o pipefail && 
+      rm -rf ~/Library/Developer/Xcode/DerivedData/* &&
+      xcodebuild
+        -workspace 'main.xcworkspace' 
+        -scheme 'Crack-iOS' 
+        clean build test 
+        -sdk iphonesimulator 
+        -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest'
+        CODE_SIGNING_REQUIRED=NO 
+        CODE_SIGN_IDENTITY= 
+        PROVISIONING_PROFILE= | 
+      tee $CIRCLE_ARTIFACTS/xcode_raw.log | 
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
+    - set -o pipefail &&
+      rm -rf ~/Library/Developer/Xcode/DerivedData/* &&
+      xcodebuild 
+        -workspace 'main.xcworkspace' 
+        -scheme 'Enamel-iOS' 
+        clean build test 
+        -sdk iphonesimulator 
+        -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest'
+        CODE_SIGNING_REQUIRED=NO 
+        CODE_SIGN_IDENTITY= 
+        PROVISIONING_PROFILE= | 
+      tee $CIRCLE_ARTIFACTS/xcode_raw.log | 
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
+    - set -o pipefail && 
+      rm -rf ~/Library/Developer/Xcode/DerivedData/* &&
+      xcodebuild
+        -workspace 'main.xcworkspace' 
+        -scheme 'EnamelKit' 
+        clean build test 
+        -sdk iphonesimulator 
+        -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest'
+        CODE_SIGNING_REQUIRED=NO 
+        CODE_SIGN_IDENTITY= 
+        PROVISIONING_PROFILE= | 
+      tee $CIRCLE_ARTIFACTS/xcode_raw.log | 
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml

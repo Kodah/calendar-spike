@@ -1,0 +1,6 @@
+framework module Pods_calendar_spikeTests {
+  umbrella header "Pods-calendar-spikeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

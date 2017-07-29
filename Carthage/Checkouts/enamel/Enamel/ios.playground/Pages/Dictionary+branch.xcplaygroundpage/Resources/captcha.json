@@ -1,0 +1,121 @@
+{
+  "class": [
+    "securitycheck"
+  ],
+  "entities": [
+    {
+      "entities": [
+        {
+          "properties": {
+            "target": "captcha",
+            "type": "fieldDescription",
+            "validation": [
+              {
+                "type": "required",
+                "rules": [
+                  {
+                    "value": true,
+                    "code": "captcha.blank",
+                    "message": "Sorry, the characters do not match"
+                  }
+                ]
+              },
+              {
+                "type": "maxlength",
+                "rules": [
+                  {
+                    "value": 62,
+                    "code": "captcha.size.toobig",
+                    "message": "Sorry, the characters do not match"
+                  }
+                ]
+              }
+            ],
+            "help": {
+              "code": "captcha.help",
+              "message": "Please enter the characters in the box so we know you're a real person"
+            },
+            "label": {
+              "code": "captcha.label",
+              "message": "Enter the characters in the box"
+            },
+            "businessrules": [
+              "noAutocomplete"
+            ]
+          }
+        }
+      ],
+      "properties": {
+        "type": "actionMetadata",
+        "target": "securitycheck",
+        "text": [
+          {
+            "code": "securitycheck.preamble",
+            "message": "Sorry, we need to check you're a genuine user",
+            "position": "preamble"
+          }
+        ],
+        "actiontitle": {
+          "code": "securitycheck.title",
+          "message": "Verification"
+        },
+        "actionsubmit": {
+          "code": "securitycheck.submit",
+          "message": "Submit"
+        }
+      }
+    },
+    {
+      "class": [
+        "captcha"
+      ],
+      "entities": [
+        {
+          "properties": {
+            "type": "actionMetadata",
+            "target": "request-captcha",
+            "actionsubmit": {
+              "code": "requestcaptcha.submit",
+              "message": "If you can't read this, <span class=\"clickable-link\">try another one</span>"
+            }
+          }
+        }
+      ],
+      "actions": [
+        {
+          "name": "request-captcha",
+          "href": "https://skyidapp.sky.com/signin/captcha",
+          "method": "POST"
+        }
+      ],
+      "properties": {
+        "type": "captcha"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "name": "securitycheck",
+      "href": "https://skyidapp.sky.com/signin/securitycheck/service/mysky",
+      "method": "POST",
+      "type": "application/x-www-form-urlencoded",
+      "fields": [
+        {
+          "name": "captcha",
+          "value": null,
+          "type": "captcha"
+        },
+        {
+          "name": "captchaId",
+          "value": null,
+          "type": "hidden"
+        },
+        {
+          "name": "captchaSessionId",
+          "value": "f495b0bf-d6c8-4195-bff2-956565fd3503",
+          "type": "hidden"
+        }
+      ]
+    }
+  ]
+}

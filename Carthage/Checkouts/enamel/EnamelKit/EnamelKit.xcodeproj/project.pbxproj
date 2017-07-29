@@ -1,0 +1,1383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7104F0E51E57689300380286 /* EnamelKitBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7104F0E41E57689300380286 /* EnamelKitBundle.swift */; };
+		7127C6401E87B96F00A78CD6 /* Enamel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714F87101D708F3C004D7FA9 /* Enamel.framework */; };
+		7127C6421E87B98000A78CD6 /* Enamel.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 714F87101D708F3C004D7FA9 /* Enamel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7127C6431E87B98700A78CD6 /* Crack.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71970E691E83214100D38610 /* Crack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		714842E61E5307C400515B13 /* UIViewController+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719923BF1E2A6A6D004F4EA9 /* UIViewController+Debug.swift */; };
+		714843311E53527000515B13 /* CircularIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843071E53527000515B13 /* CircularIndicator.swift */; };
+		714843321E53527000515B13 /* CircularIndicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843081E53527000515B13 /* CircularIndicatorLayer.swift */; };
+		714843341E53527000515B13 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148430B1E53527000515B13 /* Alert.swift */; };
+		714843361E53527000515B13 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148430E1E53527000515B13 /* NSAttributedString.swift */; };
+		714843371E53527000515B13 /* NSIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148430F1E53527000515B13 /* NSIndexPath.swift */; };
+		714843381E53527000515B13 /* NSStringAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843101E53527000515B13 /* NSStringAttribute.swift */; };
+		714843391E53527000515B13 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843111E53527000515B13 /* String.swift */; };
+		7148433A1E53527000515B13 /* BorderedGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843131E53527000515B13 /* BorderedGradientButton.swift */; };
+		7148433B1E53527000515B13 /* CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843141E53527000515B13 /* CAGradientLayer.swift */; };
+		7148433C1E53527000515B13 /* UIGradientBackedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843151E53527000515B13 /* UIGradientBackedButton.swift */; };
+		7148433D1E53527000515B13 /* UIGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843161E53527000515B13 /* UIGradientButton.swift */; };
+		7148433E1E53527000515B13 /* UIGradientBackedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843171E53527000515B13 /* UIGradientBackedView.swift */; };
+		7148433F1E53527000515B13 /* UIGradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843181E53527000515B13 /* UIGradientLabel.swift */; };
+		714843401E53527000515B13 /* UIGradientLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843191E53527000515B13 /* UIGradientLabelView.swift */; };
+		714843411E53527000515B13 /* UICrossedOutLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148431B1E53527000515B13 /* UICrossedOutLabel.swift */; };
+		714843431E53527000515B13 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148431F1E53527000515B13 /* NSLayoutConstraint.swift */; };
+		714843441E53527000515B13 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843201E53527000515B13 /* UIStackView.swift */; };
+		714843451E53527000515B13 /* UICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843221E53527000515B13 /* UICollectionViewController.swift */; };
+		714843461E53527000515B13 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843231E53527000515B13 /* UINavigationController.swift */; };
+		714843471E53527000515B13 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843241E53527000515B13 /* UIStoryboard.swift */; };
+		714843481E53527000515B13 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843251E53527000515B13 /* UIViewController.swift */; };
+		714843491E53527000515B13 /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843271E53527000515B13 /* TickView.swift */; };
+		7148434A1E53527000515B13 /* SpinnerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843291E53527000515B13 /* SpinnerLayer.swift */; };
+		7148434B1E53527000515B13 /* NSShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148432B1E53527000515B13 /* NSShadow.swift */; };
+		7148434C1E53527000515B13 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148432C1E53527000515B13 /* UIBezierPath.swift */; };
+		7148434D1E53527000515B13 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148432D1E53527000515B13 /* UIColor.swift */; };
+		7148434E1E53527000515B13 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148432E1E53527000515B13 /* UIFont.swift */; };
+		7148434F1E53527000515B13 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148432F1E53527000515B13 /* UIImage.swift */; };
+		714843501E53527000515B13 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843301E53527000515B13 /* UIView.swift */; };
+		714F868A1D7086A0004D7FA9 /* EnamelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 714F86891D7086A0004D7FA9 /* EnamelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		714F86BC1D708889004D7FA9 /* SkyText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714F86AA1D708889004D7FA9 /* SkyText-Bold.ttf */; };
+		714F86BD1D708889004D7FA9 /* SkyText-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714F86AB1D708889004D7FA9 /* SkyText-Italic.ttf */; };
+		714F86BE1D708889004D7FA9 /* SkyText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714F86AC1D708889004D7FA9 /* SkyText-Light.ttf */; };
+		714F86BF1D708889004D7FA9 /* SkyText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714F86AD1D708889004D7FA9 /* SkyText-Medium.ttf */; };
+		714F86C01D708889004D7FA9 /* SkyText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714F86AE1D708889004D7FA9 /* SkyText-Regular.ttf */; };
+		714F87171D708F45004D7FA9 /* Enamel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714F87101D708F3C004D7FA9 /* Enamel.framework */; };
+		716E381B1EC765FF00CAD6AC /* Sky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E381A1EC765FF00CAD6AC /* Sky.swift */; };
+		7192F9551E5CF72E00759B4C /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192F9541E5CF72E00759B4C /* UIButton.swift */; };
+		719479E81E548E2E00E6B881 /* LabeledCircularIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714843091E53527000515B13 /* LabeledCircularIndicator.swift */; };
+		71970E5D1E83205800D38610 /* EnamelKit+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71970E5C1E83205800D38610 /* EnamelKit+Tests.swift */; };
+		71970E701E83217800D38610 /* Crack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71970E691E83214100D38610 /* Crack.framework */; };
+		719E8C581EC49EC60017055E /* StreacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719E8C571EC49EC60017055E /* StreacherViewController.swift */; };
+		719E8C621EC49F170017055E /* UIPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719E8C611EC49F170017055E /* UIPinchGestureRecognizer.swift */; };
+		71B6E7DE1EC617D1001CEC23 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6E7DD1EC617D1001CEC23 /* UILabel.swift */; };
+		71B6E7E01EC6186F001CEC23 /* UIPaddedGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6E7DF1EC6186F001CEC23 /* UIPaddedGradientButton.swift */; };
+		71B6E7E21EC61974001CEC23 /* UIPaddedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6E7E11EC61974001CEC23 /* UIPaddedButton.swift */; };
+		8B9277BD1E5B3BBD007E1822 /* Accessibilty+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9277BC1E5B3BBD007E1822 /* Accessibilty+Settings.swift */; };
+		8B9277C21E5B3C26007E1822 /* Accessibilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9277C11E5B3C26007E1822 /* Accessibilty.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		711386541D85868E002F5C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714F87081D708F3C004D7FA9 /* Enamel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 717649AE1E43596300430D7C;
+			remoteInfo = "Enamel-iOS";
+		};
+		714F86921D7086A0004D7FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714F867D1D7086A0004D7FA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 714F86851D7086A0004D7FA9;
+			remoteInfo = EnamelKit;
+		};
+		714F870F1D708F3C004D7FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714F87081D708F3C004D7FA9 /* Enamel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 714F85281D7051DD004D7FA9;
+			remoteInfo = "Enamel-iOS";
+		};
+		714F87111D708F3C004D7FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714F87081D708F3C004D7FA9 /* Enamel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 714F85471D7058F1004D7FA9;
+			remoteInfo = "Enamel-macOS";
+		};
+		714F87151D708F3C004D7FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714F87081D708F3C004D7FA9 /* Enamel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 714F85501D7058F1004D7FA9;
+			remoteInfo = "Enamel-macOSTests";
+		};
+		71970E681E83214100D38610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71970E611E83214100D38610 /* Crack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 715141971E8048E30009B76D;
+			remoteInfo = "Crack-iOS";
+		};
+		71970E6A1E83214100D38610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71970E611E83214100D38610 /* Crack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7151419F1E8048E30009B76D;
+			remoteInfo = "Crack-iOSTests";
+		};
+		71970E6C1E83214100D38610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71970E611E83214100D38610 /* Crack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 715141B31E8049180009B76D;
+			remoteInfo = "Crack-macOS";
+		};
+		71970E6E1E83214100D38610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71970E611E83214100D38610 /* Crack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 715141BB1E8049180009B76D;
+			remoteInfo = "Crack-macOSTests";
+		};
+		91F677241E51D1C800328334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714F87081D708F3C004D7FA9 /* Enamel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 717649B71E43596300430D7C;
+			remoteInfo = "Enamel-iOSTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7127C6411E87B97400A78CD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7127C6431E87B98700A78CD6 /* Crack.framework in CopyFiles */,
+				7127C6421E87B98000A78CD6 /* Enamel.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7104F0E41E57689300380286 /* EnamelKitBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnamelKitBundle.swift; sourceTree = "<group>"; };
+		714843071E53527000515B13 /* CircularIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularIndicator.swift; sourceTree = "<group>"; };
+		714843081E53527000515B13 /* CircularIndicatorLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularIndicatorLayer.swift; sourceTree = "<group>"; };
+		714843091E53527000515B13 /* LabeledCircularIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledCircularIndicator.swift; sourceTree = "<group>"; };
+		7148430B1E53527000515B13 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		7148430E1E53527000515B13 /* NSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		7148430F1E53527000515B13 /* NSIndexPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSIndexPath.swift; sourceTree = "<group>"; };
+		714843101E53527000515B13 /* NSStringAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringAttribute.swift; sourceTree = "<group>"; };
+		714843111E53527000515B13 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		714843131E53527000515B13 /* BorderedGradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedGradientButton.swift; sourceTree = "<group>"; };
+		714843141E53527000515B13 /* CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayer.swift; sourceTree = "<group>"; };
+		714843151E53527000515B13 /* UIGradientBackedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGradientBackedButton.swift; sourceTree = "<group>"; };
+		714843161E53527000515B13 /* UIGradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGradientButton.swift; sourceTree = "<group>"; };
+		714843171E53527000515B13 /* UIGradientBackedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGradientBackedView.swift; sourceTree = "<group>"; };
+		714843181E53527000515B13 /* UIGradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGradientLabel.swift; sourceTree = "<group>"; };
+		714843191E53527000515B13 /* UIGradientLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGradientLabelView.swift; sourceTree = "<group>"; };
+		7148431B1E53527000515B13 /* UICrossedOutLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICrossedOutLabel.swift; sourceTree = "<group>"; };
+		7148431F1E53527000515B13 /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		714843201E53527000515B13 /* UIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		714843221E53527000515B13 /* UICollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewController.swift; sourceTree = "<group>"; };
+		714843231E53527000515B13 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		714843241E53527000515B13 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		714843251E53527000515B13 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		714843271E53527000515B13 /* TickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
+		714843291E53527000515B13 /* SpinnerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerLayer.swift; sourceTree = "<group>"; };
+		7148432B1E53527000515B13 /* NSShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSShadow.swift; sourceTree = "<group>"; };
+		7148432C1E53527000515B13 /* UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
+		7148432D1E53527000515B13 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7148432E1E53527000515B13 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		7148432F1E53527000515B13 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		714843301E53527000515B13 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		714F86861D7086A0004D7FA9 /* EnamelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnamelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714F86891D7086A0004D7FA9 /* EnamelKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnamelKit.h; sourceTree = "<group>"; };
+		714F868B1D7086A0004D7FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714F86901D7086A0004D7FA9 /* EnamelKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnamelKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		714F86971D7086A0004D7FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714F86AA1D708889004D7FA9 /* SkyText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkyText-Bold.ttf"; sourceTree = "<group>"; };
+		714F86AB1D708889004D7FA9 /* SkyText-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkyText-Italic.ttf"; sourceTree = "<group>"; };
+		714F86AC1D708889004D7FA9 /* SkyText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkyText-Light.ttf"; sourceTree = "<group>"; };
+		714F86AD1D708889004D7FA9 /* SkyText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkyText-Medium.ttf"; sourceTree = "<group>"; };
+		714F86AE1D708889004D7FA9 /* SkyText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkyText-Regular.ttf"; sourceTree = "<group>"; };
+		714F87081D708F3C004D7FA9 /* Enamel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Enamel.xcodeproj; path = ../Enamel/Enamel.xcodeproj; sourceTree = "<group>"; };
+		716E381A1EC765FF00CAD6AC /* Sky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sky.swift; sourceTree = "<group>"; };
+		7192F9541E5CF72E00759B4C /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		71970E5C1E83205800D38610 /* EnamelKit+Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EnamelKit+Tests.swift"; sourceTree = "<group>"; };
+		71970E611E83214100D38610 /* Crack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Crack.xcodeproj; path = ../../Crack/Crack.xcodeproj; sourceTree = "<group>"; };
+		719923BF1E2A6A6D004F4EA9 /* UIViewController+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Debug.swift"; sourceTree = "<group>"; };
+		719E8C571EC49EC60017055E /* StreacherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreacherViewController.swift; sourceTree = "<group>"; };
+		719E8C611EC49F170017055E /* UIPinchGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPinchGestureRecognizer.swift; sourceTree = "<group>"; };
+		71B6E7DD1EC617D1001CEC23 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		71B6E7DF1EC6186F001CEC23 /* UIPaddedGradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPaddedGradientButton.swift; sourceTree = "<group>"; };
+		71B6E7E11EC61974001CEC23 /* UIPaddedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPaddedButton.swift; sourceTree = "<group>"; };
+		8B9277BC1E5B3BBD007E1822 /* Accessibilty+Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Accessibilty+Settings.swift"; sourceTree = "<group>"; };
+		8B9277C11E5B3C26007E1822 /* Accessibilty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accessibilty.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714F86821D7086A0004D7FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714F87171D708F45004D7FA9 /* Enamel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714F868D1D7086A0004D7FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127C6401E87B96F00A78CD6 /* Enamel.framework in Frameworks */,
+				71970E701E83217800D38610 /* Crack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714843061E53527000515B13 /* CircularIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				714843071E53527000515B13 /* CircularIndicator.swift */,
+				714843081E53527000515B13 /* CircularIndicatorLayer.swift */,
+				714843091E53527000515B13 /* LabeledCircularIndicator.swift */,
+			);
+			path = CircularIndicator;
+			sourceTree = "<group>";
+		};
+		7148430A1E53527000515B13 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				7148430B1E53527000515B13 /* Alert.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		7148430C1E53527000515B13 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7148430E1E53527000515B13 /* NSAttributedString.swift */,
+				7148430F1E53527000515B13 /* NSIndexPath.swift */,
+				714843101E53527000515B13 /* NSStringAttribute.swift */,
+				714843111E53527000515B13 /* String.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		714843121E53527000515B13 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				714843131E53527000515B13 /* BorderedGradientButton.swift */,
+				714843141E53527000515B13 /* CAGradientLayer.swift */,
+				714843151E53527000515B13 /* UIGradientBackedButton.swift */,
+				714843171E53527000515B13 /* UIGradientBackedView.swift */,
+				714843161E53527000515B13 /* UIGradientButton.swift */,
+				714843181E53527000515B13 /* UIGradientLabel.swift */,
+				714843191E53527000515B13 /* UIGradientLabelView.swift */,
+				71B6E7DF1EC6186F001CEC23 /* UIPaddedGradientButton.swift */,
+			);
+			path = Gradients;
+			sourceTree = "<group>";
+		};
+		7148431A1E53527000515B13 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				7148431B1E53527000515B13 /* UICrossedOutLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		7148431E1E53527000515B13 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				7148431F1E53527000515B13 /* NSLayoutConstraint.swift */,
+				714843201E53527000515B13 /* UIStackView.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		714843211E53527000515B13 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				714843221E53527000515B13 /* UICollectionViewController.swift */,
+				714843231E53527000515B13 /* UINavigationController.swift */,
+				714843241E53527000515B13 /* UIStoryboard.swift */,
+				714843251E53527000515B13 /* UIViewController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		714843261E53527000515B13 /* Signs */ = {
+			isa = PBXGroup;
+			children = (
+				714843271E53527000515B13 /* TickView.swift */,
+			);
+			path = Signs;
+			sourceTree = "<group>";
+		};
+		714843281E53527000515B13 /* Spinners */ = {
+			isa = PBXGroup;
+			children = (
+				714843291E53527000515B13 /* SpinnerLayer.swift */,
+			);
+			path = Spinners;
+			sourceTree = "<group>";
+		};
+		7148432A1E53527000515B13 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7148432B1E53527000515B13 /* NSShadow.swift */,
+				7148432C1E53527000515B13 /* UIBezierPath.swift */,
+				7192F9541E5CF72E00759B4C /* UIButton.swift */,
+				7148432D1E53527000515B13 /* UIColor.swift */,
+				7148432E1E53527000515B13 /* UIFont.swift */,
+				7148432F1E53527000515B13 /* UIImage.swift */,
+				71B6E7DD1EC617D1001CEC23 /* UILabel.swift */,
+				71B6E7E11EC61974001CEC23 /* UIPaddedButton.swift */,
+				714843301E53527000515B13 /* UIView.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		714F867C1D7086A0004D7FA9 = {
+			isa = PBXGroup;
+			children = (
+				714F87081D708F3C004D7FA9 /* Enamel.xcodeproj */,
+				714F86881D7086A0004D7FA9 /* EnamelKit */,
+				714F86941D7086A0004D7FA9 /* EnamelKitTests */,
+				714F86871D7086A0004D7FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		714F86871D7086A0004D7FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714F86861D7086A0004D7FA9 /* EnamelKit.framework */,
+				714F86901D7086A0004D7FA9 /* EnamelKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714F86881D7086A0004D7FA9 /* EnamelKit */ = {
+			isa = PBXGroup;
+			children = (
+				714F86891D7086A0004D7FA9 /* EnamelKit.h */,
+				714F868B1D7086A0004D7FA9 /* Info.plist */,
+				7104F0E41E57689300380286 /* EnamelKitBundle.swift */,
+				716E381A1EC765FF00CAD6AC /* Sky.swift */,
+				8B9277BB1E5B3BBD007E1822 /* Accessibility */,
+				714843061E53527000515B13 /* CircularIndicator */,
+				7148430A1E53527000515B13 /* Custom */,
+				719923BB1E2A6A53004F4EA9 /* Debug */,
+				7148430C1E53527000515B13 /* Foundation */,
+				719E8C601EC49EFF0017055E /* Gestures */,
+				714843121E53527000515B13 /* Gradients */,
+				7148431A1E53527000515B13 /* Labels */,
+				7148431E1E53527000515B13 /* Layout */,
+				714843211E53527000515B13 /* Navigation */,
+				714F86A81D708889004D7FA9 /* Resources */,
+				714843261E53527000515B13 /* Signs */,
+				714843281E53527000515B13 /* Spinners */,
+				7148432A1E53527000515B13 /* UIKit */,
+			);
+			path = EnamelKit;
+			sourceTree = "<group>";
+		};
+		714F86941D7086A0004D7FA9 /* EnamelKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				71970E611E83214100D38610 /* Crack.xcodeproj */,
+				714F86971D7086A0004D7FA9 /* Info.plist */,
+				71970E5C1E83205800D38610 /* EnamelKit+Tests.swift */,
+			);
+			path = EnamelKitTests;
+			sourceTree = "<group>";
+		};
+		714F86A81D708889004D7FA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				714F86A91D708889004D7FA9 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		714F86A91D708889004D7FA9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				714F86AA1D708889004D7FA9 /* SkyText-Bold.ttf */,
+				714F86AB1D708889004D7FA9 /* SkyText-Italic.ttf */,
+				714F86AC1D708889004D7FA9 /* SkyText-Light.ttf */,
+				714F86AD1D708889004D7FA9 /* SkyText-Medium.ttf */,
+				714F86AE1D708889004D7FA9 /* SkyText-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		714F87091D708F3C004D7FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714F87101D708F3C004D7FA9 /* Enamel.framework */,
+				714F87121D708F3C004D7FA9 /* Enamel.framework */,
+				91F677251E51D1C800328334 /* Enamel-iOSTests.xctest */,
+				714F87161D708F3C004D7FA9 /* Enamel-macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71970E621E83214100D38610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71970E691E83214100D38610 /* Crack.framework */,
+				71970E6D1E83214100D38610 /* Crack.framework */,
+				71970E6B1E83214100D38610 /* Crack-iOSTests.xctest */,
+				71970E6F1E83214100D38610 /* Crack-macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719923BB1E2A6A53004F4EA9 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				719923BF1E2A6A6D004F4EA9 /* UIViewController+Debug.swift */,
+				719E8C571EC49EC60017055E /* StreacherViewController.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		719E8C601EC49EFF0017055E /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				719E8C611EC49F170017055E /* UIPinchGestureRecognizer.swift */,
+			);
+			name = Gestures;
+			sourceTree = "<group>";
+		};
+		8B9277BB1E5B3BBD007E1822 /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				8B9277C11E5B3C26007E1822 /* Accessibilty.swift */,
+				8B9277BC1E5B3BBD007E1822 /* Accessibilty+Settings.swift */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		714F86831D7086A0004D7FA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714F868A1D7086A0004D7FA9 /* EnamelKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		714F86851D7086A0004D7FA9 /* EnamelKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714F869A1D7086A0004D7FA9 /* Build configuration list for PBXNativeTarget "EnamelKit" */;
+			buildPhases = (
+				714F86811D7086A0004D7FA9 /* Sources */,
+				714F86821D7086A0004D7FA9 /* Frameworks */,
+				714F86831D7086A0004D7FA9 /* Headers */,
+				714F86841D7086A0004D7FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711386551D85868E002F5C98 /* PBXTargetDependency */,
+			);
+			name = EnamelKit;
+			productName = EnamelKit;
+			productReference = 714F86861D7086A0004D7FA9 /* EnamelKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		714F868F1D7086A0004D7FA9 /* EnamelKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714F869D1D7086A0004D7FA9 /* Build configuration list for PBXNativeTarget "EnamelKitTests" */;
+			buildPhases = (
+				714F868C1D7086A0004D7FA9 /* Sources */,
+				714F868D1D7086A0004D7FA9 /* Frameworks */,
+				714F868E1D7086A0004D7FA9 /* Resources */,
+				7127C6411E87B97400A78CD6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714F86931D7086A0004D7FA9 /* PBXTargetDependency */,
+			);
+			name = EnamelKitTests;
+			productName = EnamelKitTests;
+			productReference = 714F86901D7086A0004D7FA9 /* EnamelKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714F867D1D7086A0004D7FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sky;
+				TargetAttributes = {
+					714F86851D7086A0004D7FA9 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+					};
+					714F868F1D7086A0004D7FA9 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 714F86801D7086A0004D7FA9 /* Build configuration list for PBXProject "EnamelKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 714F867C1D7086A0004D7FA9;
+			productRefGroup = 714F86871D7086A0004D7FA9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 71970E621E83214100D38610 /* Products */;
+					ProjectRef = 71970E611E83214100D38610 /* Crack.xcodeproj */;
+				},
+				{
+					ProductGroup = 714F87091D708F3C004D7FA9 /* Products */;
+					ProjectRef = 714F87081D708F3C004D7FA9 /* Enamel.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				714F86851D7086A0004D7FA9 /* EnamelKit */,
+				714F868F1D7086A0004D7FA9 /* EnamelKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		714F87101D708F3C004D7FA9 /* Enamel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Enamel.framework;
+			remoteRef = 714F870F1D708F3C004D7FA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		714F87121D708F3C004D7FA9 /* Enamel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Enamel.framework;
+			remoteRef = 714F87111D708F3C004D7FA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		714F87161D708F3C004D7FA9 /* Enamel-macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Enamel-macOSTests.xctest";
+			remoteRef = 714F87151D708F3C004D7FA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		71970E691E83214100D38610 /* Crack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Crack.framework;
+			remoteRef = 71970E681E83214100D38610 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		71970E6B1E83214100D38610 /* Crack-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Crack-iOSTests.xctest";
+			remoteRef = 71970E6A1E83214100D38610 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		71970E6D1E83214100D38610 /* Crack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Crack.framework;
+			remoteRef = 71970E6C1E83214100D38610 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		71970E6F1E83214100D38610 /* Crack-macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Crack-macOSTests.xctest";
+			remoteRef = 71970E6E1E83214100D38610 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F677251E51D1C800328334 /* Enamel-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Enamel-iOSTests.xctest";
+			remoteRef = 91F677241E51D1C800328334 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714F86841D7086A0004D7FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714F86BF1D708889004D7FA9 /* SkyText-Medium.ttf in Resources */,
+				714F86BC1D708889004D7FA9 /* SkyText-Bold.ttf in Resources */,
+				714F86BE1D708889004D7FA9 /* SkyText-Light.ttf in Resources */,
+				714F86BD1D708889004D7FA9 /* SkyText-Italic.ttf in Resources */,
+				714F86C01D708889004D7FA9 /* SkyText-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714F868E1D7086A0004D7FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714F86811D7086A0004D7FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714843361E53527000515B13 /* NSAttributedString.swift in Sources */,
+				71B6E7E21EC61974001CEC23 /* UIPaddedButton.swift in Sources */,
+				7148433A1E53527000515B13 /* BorderedGradientButton.swift in Sources */,
+				7148433B1E53527000515B13 /* CAGradientLayer.swift in Sources */,
+				716E381B1EC765FF00CAD6AC /* Sky.swift in Sources */,
+				8B9277BD1E5B3BBD007E1822 /* Accessibilty+Settings.swift in Sources */,
+				714843481E53527000515B13 /* UIViewController.swift in Sources */,
+				7148433E1E53527000515B13 /* UIGradientBackedView.swift in Sources */,
+				714843391E53527000515B13 /* String.swift in Sources */,
+				7148434A1E53527000515B13 /* SpinnerLayer.swift in Sources */,
+				719E8C621EC49F170017055E /* UIPinchGestureRecognizer.swift in Sources */,
+				714843451E53527000515B13 /* UICollectionViewController.swift in Sources */,
+				7148434F1E53527000515B13 /* UIImage.swift in Sources */,
+				7148433D1E53527000515B13 /* UIGradientButton.swift in Sources */,
+				719479E81E548E2E00E6B881 /* LabeledCircularIndicator.swift in Sources */,
+				714843371E53527000515B13 /* NSIndexPath.swift in Sources */,
+				8B9277C21E5B3C26007E1822 /* Accessibilty.swift in Sources */,
+				714843501E53527000515B13 /* UIView.swift in Sources */,
+				714843491E53527000515B13 /* TickView.swift in Sources */,
+				714843311E53527000515B13 /* CircularIndicator.swift in Sources */,
+				714843411E53527000515B13 /* UICrossedOutLabel.swift in Sources */,
+				7192F9551E5CF72E00759B4C /* UIButton.swift in Sources */,
+				7148434E1E53527000515B13 /* UIFont.swift in Sources */,
+				71B6E7E01EC6186F001CEC23 /* UIPaddedGradientButton.swift in Sources */,
+				714843471E53527000515B13 /* UIStoryboard.swift in Sources */,
+				7148434C1E53527000515B13 /* UIBezierPath.swift in Sources */,
+				7148434B1E53527000515B13 /* NSShadow.swift in Sources */,
+				714843321E53527000515B13 /* CircularIndicatorLayer.swift in Sources */,
+				7148434D1E53527000515B13 /* UIColor.swift in Sources */,
+				71B6E7DE1EC617D1001CEC23 /* UILabel.swift in Sources */,
+				714843341E53527000515B13 /* Alert.swift in Sources */,
+				714843381E53527000515B13 /* NSStringAttribute.swift in Sources */,
+				7148433F1E53527000515B13 /* UIGradientLabel.swift in Sources */,
+				719E8C581EC49EC60017055E /* StreacherViewController.swift in Sources */,
+				7104F0E51E57689300380286 /* EnamelKitBundle.swift in Sources */,
+				714843461E53527000515B13 /* UINavigationController.swift in Sources */,
+				714843401E53527000515B13 /* UIGradientLabelView.swift in Sources */,
+				714843441E53527000515B13 /* UIStackView.swift in Sources */,
+				714842E61E5307C400515B13 /* UIViewController+Debug.swift in Sources */,
+				7148433C1E53527000515B13 /* UIGradientBackedButton.swift in Sources */,
+				714843431E53527000515B13 /* NSLayoutConstraint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714F868C1D7086A0004D7FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71970E5D1E83205800D38610 /* EnamelKit+Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		711386551D85868E002F5C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Enamel-iOS";
+			targetProxy = 711386541D85868E002F5C98 /* PBXContainerItemProxy */;
+		};
+		714F86931D7086A0004D7FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 714F86851D7086A0004D7FA9 /* EnamelKit */;
+			targetProxy = 714F86921D7086A0004D7FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D0B8A331E0BEA7300747D88 /* Debug Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D RELEASE";
+				PRODUCT_MODULE_NAME = EnamelKit;
+				PRODUCT_NAME = EnamelKit;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Debug Release";
+		};
+		2D0B8A341E0BEA7300747D88 /* Debug Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EnamelKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = "Debug Release";
+		};
+		2D0B8A351E0BEA7300747D88 /* Debug Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EnamelKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = "Debug Release";
+		};
+		2D6B62031DE85A7D0031A856 /* Private Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_MODULE_NAME = EnamelKit;
+				PRODUCT_NAME = EnamelKit;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Private Production";
+		};
+		2D6B62041DE85A7D0031A856 /* Private Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EnamelKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKit;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = "Private Production";
+		};
+		2D6B62051DE85A7D0031A856 /* Private Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EnamelKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = "Private Production";
+		};
+		714F86981D7086A0004D7FA9 /* Local */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_MODULE_NAME = EnamelKit;
+				PRODUCT_NAME = EnamelKit;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Local;
+		};
+		714F86991D7086A0004D7FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "-D RELEASE";
+				PRODUCT_MODULE_NAME = EnamelKit;
+				PRODUCT_NAME = EnamelKit;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		714F869B1D7086A0004D7FA9 /* Local */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EnamelKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKit;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Local;
+		};
+		714F869C1D7086A0004D7FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EnamelKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		714F869E1D7086A0004D7FA9 /* Local */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EnamelKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Local;
+		};
+		714F869F1D7086A0004D7FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EnamelKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		714F86A01D7086B1004D7FA9 /* Integration */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_MODULE_NAME = EnamelKit;
+				PRODUCT_NAME = EnamelKit;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Integration;
+		};
+		714F86A11D7086B1004D7FA9 /* Integration */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EnamelKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKit;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Integration;
+		};
+		714F86A21D7086B1004D7FA9 /* Integration */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EnamelKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Integration;
+		};
+		71F2F2271D7979E600809088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_MODULE_NAME = EnamelKit;
+				PRODUCT_NAME = EnamelKit;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71F2F2281D7979E600809088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EnamelKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKit;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		71F2F2291D7979E600809088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EnamelKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8BFD95AB1DB818E20019D514 /* FO2 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_MODULE_NAME = EnamelKit;
+				PRODUCT_NAME = EnamelKit;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = FO2;
+		};
+		8BFD95AC1DB818E20019D514 /* FO2 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EnamelKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKit;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = FO2;
+		};
+		8BFD95AD1DB818E20019D514 /* FO2 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EnamelKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.sky.EnamelKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = FO2;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714F86801D7086A0004D7FA9 /* Build configuration list for PBXProject "EnamelKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714F86981D7086A0004D7FA9 /* Local */,
+				2D6B62031DE85A7D0031A856 /* Private Production */,
+				71F2F2271D7979E600809088 /* Debug */,
+				714F86A01D7086B1004D7FA9 /* Integration */,
+				8BFD95AB1DB818E20019D514 /* FO2 */,
+				714F86991D7086A0004D7FA9 /* Release */,
+				2D0B8A331E0BEA7300747D88 /* Debug Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714F869A1D7086A0004D7FA9 /* Build configuration list for PBXNativeTarget "EnamelKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714F869B1D7086A0004D7FA9 /* Local */,
+				2D6B62041DE85A7D0031A856 /* Private Production */,
+				71F2F2281D7979E600809088 /* Debug */,
+				714F86A11D7086B1004D7FA9 /* Integration */,
+				8BFD95AC1DB818E20019D514 /* FO2 */,
+				714F869C1D7086A0004D7FA9 /* Release */,
+				2D0B8A341E0BEA7300747D88 /* Debug Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714F869D1D7086A0004D7FA9 /* Build configuration list for PBXNativeTarget "EnamelKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714F869E1D7086A0004D7FA9 /* Local */,
+				2D6B62051DE85A7D0031A856 /* Private Production */,
+				71F2F2291D7979E600809088 /* Debug */,
+				714F86A21D7086B1004D7FA9 /* Integration */,
+				8BFD95AD1DB818E20019D514 /* FO2 */,
+				714F869F1D7086A0004D7FA9 /* Release */,
+				2D0B8A351E0BEA7300747D88 /* Debug Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 714F867D1D7086A0004D7FA9 /* Project object */;
+}

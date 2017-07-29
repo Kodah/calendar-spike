@@ -6,7 +6,7 @@
 //  Copyright © 2017 Sugarev, Thomas (iOS Developer). All rights reserved.
 //
 
-import UIKit
+import EnamelKit
 
 class ViewController: UIViewController {
 
