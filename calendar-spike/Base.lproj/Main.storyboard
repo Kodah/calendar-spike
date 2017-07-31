@@ -55,7 +55,7 @@
         <!--Ib Calendar Data Source-->
         <scene sceneID="baD-Mh-Kkb">
             <objects>
-                <viewController id="a8f-3P-GBL" customClass="bacon" customModule="calendar_spike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="a8f-3P-GBL" customClass="JTCalendarViewController" customModule="calendar_spike" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DQM-zE-4aZ"/>
                         <viewControllerLayoutGuide type="bottom" id="gZm-8N-pw4"/>
@@ -163,7 +163,7 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L5h-7M-0ac" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L5h-7M-0ac" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
                                         <rect key="frame" x="0.0" y="133.5" width="343" height="393.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xWb-Eh-IEy">
@@ -249,6 +249,9 @@
                             <constraint firstItem="5Xj-Qy-Qpa" firstAttribute="top" secondItem="DQM-zE-4aZ" secondAttribute="bottom" constant="8" id="xm7-Zs-BLf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="calendarView" destination="L5h-7M-0ac" id="2qQ-xJ-XbL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rba-gL-nfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

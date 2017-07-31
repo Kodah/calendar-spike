@@ -18,7 +18,7 @@
 		BD7268B41F2BEC3600EE9F8D /* Enamel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD7268B21F2BEC3600EE9F8D /* Enamel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BD7268B61F2BF01C00EE9F8D /* FSCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7268B51F2BF01C00EE9F8D /* FSCalendarViewController.swift */; };
 		BD9169941F2D16E900EB7E13 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9169931F2D16E900EB7E13 /* CalendarCell.swift */; };
-		BD9169961F2D173B00EB7E13 /* bacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9169951F2D173B00EB7E13 /* bacon.swift */; };
+		BD9169961F2D173B00EB7E13 /* JTCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9169951F2D173B00EB7E13 /* JTCalendarViewController.swift */; };
 		BD95F4111F2E1073005D64AA /* Enamel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7268B21F2BEC3600EE9F8D /* Enamel.framework */; };
 		BD95F4131F2E1088005D64AA /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD95F4121F2E1088005D64AA /* JTAppleCalendar.framework */; };
 		BD95F4141F2E1088005D64AA /* JTAppleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD95F4121F2E1088005D64AA /* JTAppleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -68,7 +68,7 @@
 		BD7268B21F2BEC3600EE9F8D /* Enamel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Enamel.framework; path = Carthage/Build/iOS/Enamel.framework; sourceTree = "<group>"; };
 		BD7268B51F2BF01C00EE9F8D /* FSCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCalendarViewController.swift; sourceTree = "<group>"; };
 		BD9169931F2D16E900EB7E13 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
-		BD9169951F2D173B00EB7E13 /* bacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bacon.swift; sourceTree = "<group>"; };
+		BD9169951F2D173B00EB7E13 /* JTCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTCalendarViewController.swift; sourceTree = "<group>"; };
 		BD95F4121F2E1088005D64AA /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JTAppleCalendar.framework; path = Carthage/Build/iOS/JTAppleCalendar.framework; sourceTree = SOURCE_ROOT; };
 		BD95F4191F2E2586005D64AA /* FSCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FSCalendar.framework; path = Carthage/Build/iOS/FSCalendar.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -131,7 +131,7 @@
 				BD72688D1F2BDF4A00EE9F8D /* AppDelegate.swift */,
 				BD72688F1F2BDF4A00EE9F8D /* ViewController.swift */,
 				BD7268B51F2BF01C00EE9F8D /* FSCalendarViewController.swift */,
-				BD9169951F2D173B00EB7E13 /* bacon.swift */,
+				BD9169951F2D173B00EB7E13 /* JTCalendarViewController.swift */,
 				BD9169931F2D16E900EB7E13 /* CalendarCell.swift */,
 				BD7268911F2BDF4A00EE9F8D /* Main.storyboard */,
 				BD7268941F2BDF4A00EE9F8D /* Assets.xcassets */,
@@ -290,7 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7268901F2BDF4A00EE9F8D /* ViewController.swift in Sources */,
-				BD9169961F2D173B00EB7E13 /* bacon.swift in Sources */,
+				BD9169961F2D173B00EB7E13 /* JTCalendarViewController.swift in Sources */,
 				BD72688E1F2BDF4A00EE9F8D /* AppDelegate.swift in Sources */,
 				BD7268B61F2BF01C00EE9F8D /* FSCalendarViewController.swift in Sources */,
 				BD9169941F2D16E900EB7E13 /* CalendarCell.swift in Sources */,
